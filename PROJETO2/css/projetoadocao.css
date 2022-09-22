@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(237, 128, 128);
+}
+
+#menu-h ul{
+    list-style-type: none;
+    padding: 0;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+}
+
+#menu-h ul li{
+    display: inline;
+
+}
+
+#menu-h ul li a{
+    color: beige;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: all .4seg;
+
+}
+
+#menu-h ul li a:hover{
+    color: rgb(82, 82, 109);
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+img{
+width: 100%;
+height: 100%;
+
+}
+
+h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: brown;
+font-size: 80px;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
